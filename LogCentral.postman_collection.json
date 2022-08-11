@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "5f75b530-8287-4ae0-8dab-67eef7d184c3",
+		"name": "LogCentral",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Items",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Post Item 1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Post Item 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Post Item 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"applicationId\": \"f6f3da33-1e09-463c-b51b-5f0a134079f4\",\r\n    \"traceId\": \"f9d8bb3d-b730-4133-9eb6-2daceedb16ce\",\r\n    \"severity\": \"High\",\r\n    \"timestamp\": \"0001-01-01T00:00:00\",\r\n    \"message\": \"Server crashed and is permanently offline\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Items Again",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
